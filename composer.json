@@ -1,0 +1,14 @@
+{
+    "name": "pabloi/dogs-api",
+    "description": "Dogs API for TechSylvania Workshop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pablo Iglesias",
+            "email": "pablo.iglesias02@gmail.com"
+        }
+    ],
+    "require": {
+        "ziggeo/ziggeophpsdk": "^0.1.24"
+    }
+}
