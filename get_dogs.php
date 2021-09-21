@@ -18,7 +18,7 @@
 	 *  - Videos that match the tags configured in the config.json file
 	 *  - We are asking them in reverse order, that means from newest to oldest
 	 */
-	$videos = $ziggeo->videos()->index(array("approved" => "APPROVED", "reverse" => TRUE, "tags" => $config["TAGS"]));
+	$videos = $ziggeo->videos()->index(array("approved" => "APPROVED", "reverse" => TRUE, "tags" => implode(",", $config["TAGS"])));
 
 	$result = array();
 
