@@ -6,7 +6,6 @@
 
 	//Loading vendors
 	require __DIR__ . '/vendor/autoload.php';
-
 	/*
 	 * We have configured our webhook in our dashboard to send the information as json_encoded in the request body.
 	 * Here we're getting the webhook data and creating an associative array from it.
@@ -24,6 +23,10 @@
 
 	$stream = $video["default_stream"];
 	$desired_tags = $config["TAGS"];
+	$desired_tags[] = "cat";
+	$desired_tags[] = "human";
+	$desired_tags[] = "bird";
+
 	$score_threshold = $config["TAGS_SCORE_THRESHOLD"];
 	$found_tag = NULL;
 	/*
@@ -37,9 +40,9 @@
 					$found_tag = $tag["tag"];
 					break;
 				}
-				if (@$found_tag)
-					break;
 			}
+			if (@$found_tag)
+				break;
 		}
 	}
 
