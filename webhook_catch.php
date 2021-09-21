@@ -23,9 +23,6 @@
 
 	$stream = $video["default_stream"];
 	$desired_tags = $config["TAGS"];
-	$desired_tags[] = "cat";
-	$desired_tags[] = "human";
-	$desired_tags[] = "bird";
 
 	$score_threshold = $config["TAGS_SCORE_THRESHOLD"];
 	$found_tag = NULL;
