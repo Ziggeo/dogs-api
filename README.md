@@ -32,3 +32,13 @@ For this example, we're using webhooks to automatically moderate videos when the
 This is done by automatically listening to the `video_analysis` event after an event is processed. The `webhook_catch.php` file must be accessible from the internet for this to work.
 
 This is not strictly necessary as you can moderate videos through Ziggeo's Dashboard too. Just remember to also tag them how you want.
+
+## Who is this for?
+
+This is designed as demo for a workshop event that is to happen on 22nd of September 2021. It does not show all of our features, however shows some interesting ways how you could use it.
+
+We invite you to join the event to see more and ask questions you might have.
+
+Anyone can of course use it, even if you are not taking part in the event, just know that there are more features that you could use than shown here.
+
+Please note that this is used together with this website demo repo: https://github.com/Ziggeo/doglovers-website
