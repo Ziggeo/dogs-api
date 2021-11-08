@@ -37,8 +37,8 @@ This is not strictly necessary as you can moderate videos through Ziggeo's Dashb
 
 This was designed as demo for a workshop event that happened on 22nd of September 2021. It does not show all of our features, however shows some interesting ways how you could use it.
 
-We invite you to join the event to see more and ask questions you might have.
+We invite you to check out our blog to see more about the event.
 
-Anyone can of course use it, even if you are not taking part in the event, just know that there are more features that you could use than shown here.
+Anyone can of course use the codes, even if you did not take part in the event, just know that there are more features that you could use than shown here.
 
 Please note that this is used together with this website demo repo: https://github.com/Ziggeo/doglovers-website
