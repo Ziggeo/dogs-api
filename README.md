@@ -35,7 +35,7 @@ This is not strictly necessary as you can moderate videos through Ziggeo's Dashb
 
 ## Who is this for?
 
-This is designed as demo for a workshop event that is to happen on 22nd of September 2021. It does not show all of our features, however shows some interesting ways how you could use it.
+This was designed as demo for a workshop event that happened on 22nd of September 2021. It does not show all of our features, however shows some interesting ways how you could use it.
 
 We invite you to join the event to see more and ask questions you might have.
 
